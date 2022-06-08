@@ -1,0 +1,48 @@
+.foot{
+    font-size: 1.2rem;
+    background-color: #262432;
+    min-height: 50vh;
+}
+.centered2{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-inline: 5%;
+    padding-top: 40px;
+}
+.col1{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.smallHead{
+    color: #43c7d0;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.footext {
+    letter-spacing: normal;
+    color: white;
+    font-weight: 500;
+}
+.footext+li{
+    font-size: 1.4rem;
+}
+ul.footext a:hover {
+    color: #ffffffc4;
+}
+.col2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.footline{
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 50px;
+}

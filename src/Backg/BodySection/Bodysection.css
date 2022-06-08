@@ -1,0 +1,11 @@
+
+.circ1::before{
+    content: " ";
+    padding: 3rem;
+    background-color: rgba(50, 216, 245, 0.116);
+    transform: rotate(15deg);
+    border-radius: 10%;
+    position: absolute;
+    top: 250px;
+    z-index: -3;
+}

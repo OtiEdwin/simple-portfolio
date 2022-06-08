@@ -1,0 +1,18 @@
+.colItems{
+    width: 10rem;
+    text-align: center;
+}
+.smallHead{
+    color: #43c7d0;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.footext {
+    /* color: rgba(245, 245, 245, 0.479); */
+    letter-spacing: normal;
+    color: white;
+    font-weight: 500;
+}
+.footext+li{
+    font-size: 1.4rem;
+}

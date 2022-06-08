@@ -1,0 +1,165 @@
+.head-Cont{
+    background-color: #43c7d0;
+    box-shadow: 0.1px 0.1px 20px #2f464794;
+}
+.image{
+    height: 60px;
+    position: absolute;
+    top: .5vw;
+    left: 2.5vh;
+    opacity: 1;
+}
+.nav1{
+    background-color: #3f3d56;
+    color: whitesmoke;
+    padding: 0.6rem;
+    overflow: hidden;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.new{
+    letter-spacing: 2;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.help{
+    color: #43c7d0;
+}
+.help:hover{
+    color: #d0c243;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    max-width: 90vw;
+    margin: auto;
+    justify-content: center;
+}
+.flex2 a{
+    margin-inline: 1.6rem ;
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
+    transition: all .3s;
+}
+.flex2 a:hover{
+    color: #ffdf89;
+}
+.stuck{
+    background-color: #ffffff;
+    width: 100vw;
+
+    top: 0;
+    position: fixed;
+    box-shadow: 0.1px 0.1px 20px #2f464794;
+    transition: all .3s;
+    z-index: 10;
+}
+.flexalt a{
+    margin-inline: 1.6rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #239bb9;
+    font-weight: 500;
+    transition: all .3s;
+}
+.flexalt a:hover{
+    color: #135b6d;
+}
+
+.togg{
+    position: relative;
+    min-height: 40px;
+    display: flex;
+    margin: 0px;
+    margin-block: auto ;
+}
+
+.toggler{
+    background-color: whitesmoke;
+    height: 2.5px;
+    width:35px;
+    margin-inline: 0.3rem;
+
+}
+
+.toggler::before{
+    content: "";
+    background-color: whitesmoke;
+    height: 2px;
+    width:35px;
+    margin-inline: 0.3rem;
+    position: absolute;
+    top:10px;
+    left: 0px;
+}
+.toggler::after{
+    content: "";
+    background-color: whitesmoke;
+    height: 2px;
+    width:35px;
+    margin-inline: 0.3rem;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.togglerAlt{
+    background-color: #239bb9;
+    height: 2.5px;
+    width:35px;
+    margin-inline: 0.3rem;
+
+}
+.togglerAlt::before{
+    content: "";
+    background-color: #239bb9;
+    height: 2.5px;
+    width:35px;
+    margin-inline: 0.3rem;
+    position: absolute;
+    top:10px;
+    left: 0px;
+}
+.togglerAlt::after{
+    content: "";
+    background-color: #239bb9;
+    height: 2.5px;
+    width:35px;
+    margin-inline: 0.3rem;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.toggle{
+    background-color: rgba(255, 255, 255, 0.863);
+    box-shadow: 0.1px 0.1px 0.3rem #2f464794;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:max-content;
+    position: absolute;
+    right: 34px;
+    top: 34px;
+    padding: 10px;
+    z-index: 100;
+}
+.toggle a{
+    margin-inline: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: #239bb9;
+    font-weight: 500;
+    transition: all .3s;
+}
+.toggle a:hover{
+    color: #135b6d;
+}

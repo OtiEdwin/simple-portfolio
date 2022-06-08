@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-decoration: none;
+
+ }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'lato', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+   
+h1{
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+li{
+  list-style: none;
+  margin: .25rem;
+}
+p{
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  padding-bottom: 35px;
+}
+a{
+  cursor: pointer;
+}
+div{
+  margin: auto;
+}
+
+@keyframes closeMargin {
+  to {
+      margin-inline: 25%;
+  }
+}
+
+@keyframes fading {
+  to {
+      opacity: 0;
+  }
+}
+
+
+/* QUERIES */
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:990px) {
+  .flex2 a{
+    margin-inline: 1.6rem !important ;
+    font-size: .8rem !important;
+}
+}
+
+@media (max-width:950px) {
+  *{font-size: 15px;}
+
+  h1{
+    padding-bottom: 10px;
+  }
+
+  p{
+    line-height: 20px;
+    letter-spacing: .8px;
+  }
+}
+
+@media (max-width:880px) {
+  .togg{
+    margin-left: auto !important;
+  }
+}
+
+
+@media (max-width:680px) {
+
+
+}
+
+@media (max-width:450px) {
+  *{font-size: 13px;}
+
+  p{
+    line-height: 20px;
+    letter-spacing: .8px;
+  }
+}
+
+@media (max-width:390px) {
+
+}
+
+@media (max-width:285px) {
+  *{font-size: 10px;}
+
+
+
+}

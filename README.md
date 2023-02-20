@@ -1,6 +1,6 @@
 # My first React website
 
-##Description
+## Description
 I finally decided to learn how to create websites in react so here is my first ever project using react js
 
 ## Available Scripts
